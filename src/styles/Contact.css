@@ -25,6 +25,7 @@
 }
 
 .Booking-btn {
+  display: inline-block;   
   background: linear-gradient(90deg, #ff4081, #7c4dff);
   color: white;
   padding: 1rem 2.5rem;
@@ -33,6 +34,7 @@
   text-decoration: none;
   border-radius: 50px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;         /* feels clickable */
 }
 
 .Booking-btn:hover {
